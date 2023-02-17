@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Text, View, StyleSheet } from 'react-native';
+import {View, StyleSheet} from 'react-native';
 import QRPage from './src/QRPage';
 
 interface componentNameProps {}
@@ -15,5 +15,5 @@ const App = (props: componentNameProps) => {
 export default App;
 
 const styles = StyleSheet.create({
-  container: { flex: 1 }
+  container: {flex: 1},
 });
